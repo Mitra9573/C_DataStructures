@@ -21,6 +21,7 @@ void push(struct StackNode** top, int x, int y) {
     struct StackNode* newNode = createNode(x, y);
     newNode->next = *top;
     *top = newNode;
+    
 }
 
 // Pop an element from the stack
