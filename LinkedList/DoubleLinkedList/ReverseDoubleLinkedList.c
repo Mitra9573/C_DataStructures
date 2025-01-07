@@ -3,6 +3,7 @@
 
 // Node structure for a doubly linked list
 struct Node {
+       
     int value;
     struct Node* prev;
     struct Node* next;
