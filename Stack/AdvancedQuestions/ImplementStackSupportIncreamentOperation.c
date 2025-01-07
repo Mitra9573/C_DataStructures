@@ -4,6 +4,7 @@
 #define MAX_CAPACITY 1000
 
 struct Stack {
+       
     int *arr;               // Array to store stack elements
     int *increment;         // Array to store increments
     int top;                 // Index of the top element
