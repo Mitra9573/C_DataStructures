@@ -3,6 +3,7 @@
 
 // Node structure for the linked list
 struct Node {
+       
     int value;         // Value of the node
     struct Node* next; // Pointer to the next node
 };
