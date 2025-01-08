@@ -3,6 +3,7 @@
 
 // Function to calculate the maximum area of a rectangle in the histogram
 int maxRectangleArea(int *heights, int barCount) {
+    
     // Dynamically allocated stack
     int *stack = (int *)malloc(barCount * sizeof(int));
     int top = -1;
