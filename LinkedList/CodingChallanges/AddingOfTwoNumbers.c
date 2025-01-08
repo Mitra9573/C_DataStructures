@@ -4,6 +4,7 @@
 
 // Structure for a node in the linked list
 struct Node {
+       
     int digit;
     struct Node* next;
 };

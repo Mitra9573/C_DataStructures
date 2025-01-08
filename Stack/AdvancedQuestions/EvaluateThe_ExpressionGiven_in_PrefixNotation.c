@@ -8,6 +8,7 @@
 
 // Stack structure
 struct Stack {
+       
     int *arr;
     int top;
     int capacity;

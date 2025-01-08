@@ -3,6 +3,7 @@
 
 // Node structure for the linked list with child pointers
 struct Node {
+       
     int value;        // Data for the node
     struct Node* next;  // Pointer to the next node in the main list
     struct Node* child; // Pointer to the head of the child list
